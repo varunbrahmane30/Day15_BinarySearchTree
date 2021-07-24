@@ -25,7 +25,15 @@ namespace Day15_BinarySearchTree
             binarySearch.Insert(63);
             binarySearch.Insert(67);
 
+            // display list 
             binarySearch.Display();
+            Console.WriteLine();
+
+            // searching element 63
+            bool result = binarySearch.IfExists(63, binarySearch);
+            Console.WriteLine(result);
+
+       
         }
     }
 }
