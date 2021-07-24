@@ -64,6 +64,7 @@ namespace Day15_BinarySearchTree
 
         public bool IfExists(T element, BinarySearchTree<T> node)
         {
+
             if (node == null)
                 return false;
             if (node.NodeData.Equals(element))
