@@ -6,6 +6,7 @@ namespace Day15_BinarySearchTree
 {
     class BinarySearchTree<T> where T : IComparable<T>
     {
+
         public T NodeData { get; set; }
         public BinarySearchTree<T> leftTree { get; set; }
         public BinarySearchTree<T> rightTree { get; set; }
